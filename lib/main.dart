@@ -10,8 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Nextflow COVID-19 Today',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: Colors.blue
       ),
       home: MyHomePage(title: 'Nextflow COVID-19 Today'),
     );
