@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Nextflow COVID-19 Today',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: MyHomePage(title: 'Nextflow COVID-19 Today'),
+      home: const MyHomePage(title: 'Nextflow COVID-19 Today'),
     );
   }
 }
@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: ListView(
-          children: <Widget>[],
+          children: const <Widget>[],
         ));
   }
 }
